@@ -11,7 +11,7 @@ const database = {
         name: "Chicago"
     }, {
         id: 2,
-        name: "white Plains"
+        name: "White Plains"
     }, {
         id: 3,
         name: "Sarasota"
@@ -139,7 +139,7 @@ export const getPets = () => {
     return database.pets.map(pet => ({...pet}))
 };
 
-export const getCities = () {
+export const getCities = () => {
     return database.cities.map(city => ({...city}))
-}
+};
 
